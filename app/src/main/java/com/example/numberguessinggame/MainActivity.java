@@ -1,6 +1,7 @@
 package com.example.numberguessinggame;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,6 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
     int n;
     String message = "";
 

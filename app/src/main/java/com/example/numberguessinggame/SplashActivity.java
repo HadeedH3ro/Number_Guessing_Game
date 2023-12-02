@@ -1,6 +1,7 @@
 package com.example.numberguessinggame;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,5 +21,6 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, 1000);
+        getWindow().setStatusBarColor(ContextCompat.getColor(SplashActivity.this,R.color.newcolor));
     }
 }
